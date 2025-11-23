@@ -11,6 +11,13 @@ export default function Sidebar({ onNavigate }) {
         <ListItem button onClick={() => onNavigate("dashboard")}>
           <ListItemText primary="Dashboard" />
         </ListItem>
+        <ListItem button onClick={() => onNavigate("history")}>
+          <ListItemText primary="History" />
+        </ListItem>
+        <ListItem button onClick={() => onNavigate("analytics")}>
+          <ListItemText primary="Analytics" />
+        </ListItem>
+
       </List>
     </Drawer>
   );
